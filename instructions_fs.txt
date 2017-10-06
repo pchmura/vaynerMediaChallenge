@@ -13,27 +13,21 @@ source2.csv contains stats by day for each audience, broken out by ad_type
 Do not disregard any data as invalid.
 
 1. what was the total spent against people with purple hair?
-    -sum all campaigns with people who have purple hair
-        -find all campaign-ids that have used people with purple hair
+
 2. how many campaigns spent on more than 4 days?
-    -sum all campaigns with < 4 days
-        -go to campaign and check each one if dates list is longer than 4
+
 3. how many times did source H report on clicks?
-    -sum source H click count action from table 2
-        -go to sources find the action click and return count
+
 4. which sources reported more "junk" than "noise"?
-    -sum sources that have both junk
-        -iterate through sources and check if the source has both "junk" and "noise"
+
 5. what was the total cost per view for all video ads, truncated to two decimal places?
-    -sum all video ads cost
-        -go to video key and sum campaigns
+
 6. how many source B conversions were there for campaigns targeting NY?
-    -sum all NY B conversions
+
 7. what combination of state and hair color had the best CPM?
-    -save the state stats like hair color
+
 BONUS - include a timestamp of the run time for your solution :)
 
-dictionary of all sources and sum their actions
 
 
 
