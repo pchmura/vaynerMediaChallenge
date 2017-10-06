@@ -1,13 +1,13 @@
-Question 1: 566512
-Question 2: 133
-Question 3: 31779
-Question 4: ['J', 'D', 'E']
-Question 5: 16.49
-Question 6: 268
-Question 7: ('purple', 'NY')
-Runtime: 0.48190194298513234
+1. what was the total spent against people with purple hair?: 566512
+2. how many campaigns spent on more than 4 days?: 133
+3. how many times did source H report on clicks?: 31779
+4. which sources reported more "junk" than "noise"?: ['J', 'D', 'E']
+5. what was the total cost per view for all video ads, truncated to two decimal places?: 16.49 if truncated or 16.50 if rounded
+6. how many source B conversions were there for campaigns targeting NY?: 268
+7. what combination of state and hair color had the best CPM?: ('purple', 'NY')
+Total Runtime: 0.48190194298513234
 
-Link to code:
+Link to code: https://github.com/pchmura/vaynerMediaChallenge
 
 Explanation:
     Instead of parsing through the files iteratively, I chose to save all the data in a dictionary
