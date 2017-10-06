@@ -1,0 +1,18 @@
+Question 1: 566512
+Question 2: 133
+Question 3: 31779
+Question 4: ['J', 'D', 'E']
+Question 5: 16.49
+Question 6: 268
+Question 7: ('purple', 'NY')
+Runtime: 0.48190194298513234
+
+Link to code:
+
+Explanation:
+    Instead of parsing through the files iteratively, I chose to save all the data in a dictionary
+    as the look-up operation is 0(1).
+    While parsing through the csv files I sorted the data into different categories which
+    would speed up the look up of specific queries, which are questions asked in the challenge.
+    Some of the queries would have required access to both data sets simultaneously, which I addressed by using campaign objects that hold all relevant data to that campaign.
+
